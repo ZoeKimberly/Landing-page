@@ -1,6 +1,13 @@
 /*style.css*/
 
-.years {
-    text-align: center;
-    color: cyan;
-    background-color: darkorchid;
+.top {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    background-color: blueviolet;
+    color: goldenrod;
+}
+
+.top-pic {
+    
+}
