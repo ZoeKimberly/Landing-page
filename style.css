@@ -6,3 +6,16 @@
     background-color: blueviolet;
     color: goldenrod;
 }
+
+.header {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content:space-between;
+    background-color: lavenderblush;
+    color:darkviolet;
+}
+
+#logo {
+    font-size: xx-large;
+}
