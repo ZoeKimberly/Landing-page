@@ -2,17 +2,38 @@
 
 .top {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 8px;
     background-color: blueviolet;
     color: goldenrod;
 }
 
+.top-pic {
+    margin-right: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.top h2 {
+    text-align: center;
+    margin-top: .25rem;
+    font-size: 36px;
+    margin-left: 3rem;
+    text-align: center;
+    margin-top: .90rem;
+}
+
 #bigger-hero-words {
     font-size: 60px;
+    text-align: center;
+    margin-left: 3rem;
+    margin-bottom: .90rem;
 }
 
 #other-hero-text {
     font-size: 20px;
+    margin-left: 3rem;
 }
 
 .header {
