@@ -1,5 +1,24 @@
 /*style.css*/
 
+.header {
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lavenderblush;
+    color:darkviolet;
+}
+
+.link-box {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.5rem;
+}
+
+.links {
+    color: darkviolet;
+}
+
 .top {
     display: flex;
     justify-content: space-between;
@@ -36,25 +55,15 @@
     margin-left: 3rem;
 }
 
-.header {
-    display: flex;
-    padding: 8px;
-    justify-content: space-between;
-    align-items: center;
-    background-color: lavenderblush;
-    color:darkviolet;
-}
-
-.link-box {
-    display: flex;
-    justify-content: space-around;
-    gap: 2.5rem;
-}
-
-.links {
-    color: darkviolet;
-}
-
 #logo {
     font-size: xx-large;
+}
+
+main {
+    display: flex;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
 }
