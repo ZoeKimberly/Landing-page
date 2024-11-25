@@ -77,21 +77,30 @@ main {
 .quote {
     display: flex;
     background-color: aquamarine;
-    padding: 10px;
+    padding: 100px;
     margin-top: 10px;
+    font-size: 50px;
 }
 
 .call {
     display: flex;
     align-items: center;
-    margin-left: 800px;
-    margin-right: 850px;
+    margin-left: 1000px;
     margin-top: 10px;
     background-color: green;
     color: brown;
+    font-size: 50px;
 }
 
 .call-link {
     color: brown;
-    padding-left: 10px;
+    background-color: greenyellow;
+    font-size: 50px;
+
+}
+
+.call-text {
+    display: flex;
+    padding-right: 20px;
+    padding-left: 20px;
 }
