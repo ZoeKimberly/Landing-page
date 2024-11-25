@@ -62,10 +62,14 @@
 main {
     display: flex;
     justify-content: space-between;
+    background-color: green;
 }
 
 .card {
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 300px;
+    padding: 20px;
+    background-color: lightgreen;
+    color: goldenrod;
 }
